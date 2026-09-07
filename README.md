@@ -149,6 +149,20 @@ Ghoston → Tailscale → Ghost
 
 ---
 
+## Windows Client
+
+The repository includes a prebuilt Windows client for controlling Ghost Android devices over Tailscale.
+
+The executable is located at:
+
+```text
+windows-client/Control.exe
+```
+
+A Windows-client-specific README is also available in the `windows-client` folder.
+
+---
+
 ## Releases
 
 APK releases are available on the repository's [Releases](../../releases) page.
