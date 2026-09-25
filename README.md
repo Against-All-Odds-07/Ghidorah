@@ -1,8 +1,8 @@
-# Ghost
+# Ghidorah
 
-**Android target app for the Ghost remote-control .**
+**Android app for remote-control .**
 
-Ghost runs on the Android device you want to access and works with **Ghoston**, the controller application, over **Tailscale**.
+Ghidorah runs on the Android device you want to access and works with **Ghoston**, the controller application, over **Tailscale**.
 
 ---
 
