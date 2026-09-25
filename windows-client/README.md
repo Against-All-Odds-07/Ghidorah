@@ -1,3 +1,3 @@
 # Windows Client Folder
 
-This folder contains the Windows client application for controlling Ghost Android devices over Tailscale.
+This folder contains the Windows client application for controlling Ghidorah Android devices over Tailscale.

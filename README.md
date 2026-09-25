@@ -1,6 +1,6 @@
 # Ghidorah
 
-**Android app for remote-control .**
+**Android app for remote control.**
 
 Ghidorah runs on the Android device you want to access and works with **Ghoston**, the controller application, over **Tailscale**.
 
@@ -32,14 +32,14 @@ Ghidorah runs on the Android device you want to access and works with **Ghoston*
        │
        ▼
 ┌──────────────┐
-│    Ghost     │
+│  Ghidorah    │
 │    Target    │
 └──────────────┘
 ```
 
-Ghoston controls the device running Ghost through the Tailscale network.
+Ghoston controls the device running Ghidorah through the Tailscale network.
 
-Communication between the applications uses the Ghost WebSocket protocol.
+Communication between the applications uses the Ghidorah WebSocket protocol.
 
 ---
 
@@ -47,7 +47,7 @@ Communication between the applications uses the Ghost WebSocket protocol.
 
 * Android device
 * [Tailscale](https://tailscale.com/)
-* Ghost installed on the target device
+* Ghidorah installed on the target device
 * Ghoston installed on the controller device
 * Required Android permissions
 
@@ -59,13 +59,13 @@ Some features depend on the Android version and the permissions available on the
 
 Download the latest APK from the [Releases](../../releases) page.
 
-Install **Ghost** on the Android device you want to control.
+Install **Ghidorah** on the Android device you want to control.
 
 Make sure:
 
 1. Tailscale is installed and connected.
 2. Required Android permissions are enabled.
-3. Ghost is running.
+3. Ghidorah is running.
 4. Ghoston is installed on the controller device.
 
 Then pair the devices through Ghoston.
@@ -77,8 +77,8 @@ Then pair the devices through Ghoston.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Ghost.git
-cd Ghost
+git clone https://github.com/Against-All-Odds-07/Ghidorah.git
+cd Ghidorah
 ```
 
 Build the debug APK:
@@ -98,7 +98,7 @@ app/build/outputs/apk/debug/app-debug.apk
 ## Project Structure
 
 ```text
-Ghost/
+Ghidorah/
 ├── app/
 │   ├── src/
 │   └── build.gradle.kts
@@ -111,12 +111,9 @@ Ghost/
 
 ---
 
-
----
-
 ## Permissions
 
-Depending on the enabled features, Ghost may require access to:
+Depending on the enabled features, Ghidorah may require access to:
 
 * Screen capture
 * Accessibility
@@ -131,7 +128,7 @@ Permissions are used only for their respective functionality.
 
 ## Security
 
-Ghost is intended for **authorized access to devices you own or are permitted to manage**.
+Ghidorah is intended for **authorized access to devices you own or are permitted to manage**.
 
 Use the application only on trusted devices and networks.
 
@@ -141,17 +138,17 @@ Use the application only on trusted devices and networks.
 
 ### Ghoston
 
-Android controller application used to connect to Ghost.
+Android controller application used to connect to Ghidorah.
 
 ```text
-Ghoston → Tailscale → Ghost
+Ghoston → Tailscale → Ghidorah
 ```
 
 ---
 
 ## Windows Client
 
-The repository includes a prebuilt Windows client for controlling Ghost Android devices over Tailscale.
+The repository includes a prebuilt Windows client for controlling Ghidorah Android devices over Tailscale.
 
 The executable is located at:
 
