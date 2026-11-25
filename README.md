@@ -57,7 +57,7 @@ Some features depend on the Android version and the permissions available on the
 
 ## Installation
 
-Download the latest APK from the [Releases](../../releases) page.
+Download the latest APK and Windows client from the [Releases](../../releases) page.
 
 Install **Ghidorah** on the Android device you want to control.
 
@@ -148,21 +148,15 @@ Ghoston → Tailscale → Ghidorah
 
 ## Windows Client
 
-The repository includes a prebuilt Windows client for controlling Ghidorah Android devices over Tailscale.
+The Windows client is a Rust implementation ported from the Python client. It is the controller application for managing Ghidorah Android devices over Tailscale; it is separate from the Android app.
 
-The executable is located at:
-
-```text
-windows-client/Control.exe
-```
-
-A Windows-client-specific README is also available in the `windows-client` folder.
+Download **Ghidorah Client.exe** from the repository's [Releases](../../releases) page. The executable is also present in [`windows-client/Control.exe`](windows-client/Control.exe) in the repository. See [`windows-client/README.md`](windows-client/README.md) for folder notes.
 
 ---
 
 ## Releases
 
-APK releases are available on the repository's [Releases](../../releases) page.
+The [Releases](../../releases) page contains the Android APK and the Windows client executable (**Ghidorah Client.exe**).
 
 ---
 
