@@ -37,7 +37,7 @@ Ghidorah runs on the Android device you want to access and works with **Ghoston*
 └──────────────┘
 ```
 
-Ghoston controls the device running Ghidorah through the Tailscale network.
+Ghidorah client controls the device running Ghidorah through the Tailscale network.
 
 Communication between the applications uses the Ghidorah WebSocket protocol.
 
@@ -48,7 +48,7 @@ Communication between the applications uses the Ghidorah WebSocket protocol.
 * Android device
 * [Tailscale](https://tailscale.com/)
 * Ghidorah installed on the target device
-* Ghoston installed on the controller device
+* Ghidorah client installed on the windows
 * Required Android permissions
 
 Some features depend on the Android version and the permissions available on the device.
@@ -66,7 +66,7 @@ Make sure:
 1. Tailscale is installed and connected.
 2. Required Android permissions are enabled.
 3. Ghidorah is running.
-4. Ghoston is installed on the controller device.
+4. Ghidorah client is installed on the windows.
 
 Then pair the devices through Ghoston.
 
@@ -119,8 +119,11 @@ Depending on the enabled features, Ghidorah may require access to:
 * Accessibility
 * Storage / files
 * SMS
+* Location
 * Notifications
 * Clipboard
+
+
 
 Permissions are used only for their respective functionality.
 
@@ -134,21 +137,9 @@ Use the application only on trusted devices and networks.
 
 ---
 
-## Related Project
-
-### Ghoston
-
-Android controller application used to connect to Ghidorah.
-
-```text
-Ghoston → Tailscale → Ghidorah
-```
-
----
-
 ## Windows Client
 
-The Windows client is a Rust implementation ported from the Python client. It is the controller application for managing Ghidorah Android devices over Tailscale; it is separate from the Android app.
+The Windows client is a Rust implementation ported from the Python client. It is the controller application for managing Ghidorah Android devices over Tailscale.
 
 Download **Ghidorah Client.exe** from the repository's [Releases](../../releases) page. The executable is also present in [`windows-client/Control.exe`](windows-client/Control.exe) in the repository. See [`windows-client/README.md`](windows-client/README.md) for folder notes.
 
